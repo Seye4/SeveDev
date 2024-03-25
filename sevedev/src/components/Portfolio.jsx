@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <section className='align-element'>
       <SectionTitle text='Portfolio' />
-      <div className='py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8'>
+      <div className='py-16 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8'>
         {
           projects.map((project) => {
             return <PortfolioCard key={project.id} {...project} />
