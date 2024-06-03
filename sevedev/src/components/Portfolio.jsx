@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle'
 
 const Portfolio = () => {
   return (
-    <section className='align-element'>
+    <section className='align-element pt-20 border-b border-purple-200 pb-5'>
       <SectionTitle text='Portfolio' />
       <div className='py-16 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8'>
         {
