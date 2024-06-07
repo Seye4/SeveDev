@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+.light {
+  --clr-pry: 107, 33, 168;
+  --clr-pry-400: 192, 132, 252;
+  --clr-pry-500: 168, 85, 247;
+  --clr-pry-light: 250, 245, 255;
+  --clr-pry-dark: 59, 7, 100;
+  --clr-sec-1: #fdc500;
+  --clr-sec-1: #ffd500;
+  --clr-sec-1: #ffee32;
+  --clr-text-pry: 88, 28, 135;
+  --clr-text-grey: 156, 163, 175;
+  --clr-text-dark: 15, 23, 42;
+  --clr-card-bg: 255, 255, 255;
+  --clr-border: 233, 213, 255;
+  --clr-shadow: 30, 41, 59;
+  --clr-dark: 15, 23, 42;
+  --clr-white: 255, 255, 255;
+  --clr-bg: 255, 255, 255;
+}
+
+.dark {
+  --clr-pry: 107, 33, 168;
+  --clr-pry-400: 192, 132, 252;
+  --clr-pry-500: 168, 85, 247;
+  --clr-pry-light: 250, 245, 255;
+  --clr-pry-dark: 59, 7, 100;
+  --clr-sec-1: #fdc500;
+  --clr-sec-1: #ffd500;
+  --clr-sec-1: #ffee32;
+  --clr-text-pry: 192, 132, 252;
+  --clr-text-grey: 156, 163, 175;
+  --clr-text-dark: 255, 255, 255;
+  --clr-card-bg: 2, 23, 42;
+  --clr-border: 233, 213, 255;
+  --clr-shadow: 71, 85, 105;
+  --clr-dark: 15, 23, 42;
+  --clr-white: 255, 255, 255;
+  --clr-bg: 30, 41, 59;
+}
+
 @layer components {
   .align-element {
     @apply mx-auto max-w-7xl px-8;

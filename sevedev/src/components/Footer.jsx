@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <>
        <footer className='align-element text-center' >
-            <div className='border-t border-purple-200 py-8'>
-                <p className='text-purple-950' >SeveDev </p>
+            <div className='border-t border-clr-border py-8'>
+                <p className='text-clr-text-dark' >Seve<span className='text-clr-text-pry' >Dev</span></p>
                 <div>
-                    <p> &copy; 2024 All rights reserved. </p>
+                    <p className='text-clr-text-dark'> &copy; 2024 All rights reserved. </p>
                 </div>
             </div>
         </footer> 
