@@ -6,8 +6,6 @@ const Hero = () => {
     <div id="home" className=''>
         <div className='align-element flex flex-col items-center justify-center gap-y-8	mt-20 border-b border-clr-border py-20'>
            
-            
-            {/* <button className='bg-purple-950 text-white px-6 py-2 rounded-full hover:bg-clr-border text-black duration-300 '>Latest Shots</button> */}
             <div className="m-auto">
               <h1 className="text-4xl pb-5 text-center font-bold text-clr-text-pry">Hi, I'm Oluseye</h1>
               <div className="h-12 overflow-hidden">
@@ -24,8 +22,8 @@ const Hero = () => {
               <p className="w-1/2 mx-auto py-4 text-center text-clr-text-grey">I am a dedicated programmer with experience working on Frontend project, Augmented Reality, Virtual Reality and Game Development.  want to use my programming skills and expertise to add value to the employer and contribute to successful projects. Looking to take on new challenges and use my coding abilities for Web/VR/AR development. </p>
             </div>
             <div className="flex items-center gap-x-2.5 pb-16">
-                <FaLinkedin className="h-8 w-8 fill-clr-pry" />
-                <FaGithub className="h-8 w-8 fill-clr-pry" />            
+              <a href="https://github.com/Seye4" target="_blank" rel="noopener noreferrer"><FaLinkedin className="h-8 w-8 fill-clr-pry" /></a>
+              <a href="https://www.linkedin.com/in/oluseye-ekerin-41653042/" target="_blank" rel="noopener noreferrer"><FaGithub className="h-8 w-8 fill-clr-pry" /></a>
             </div>
         </div>
         

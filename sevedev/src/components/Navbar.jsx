@@ -8,10 +8,6 @@ import { FaBars } from 'react-icons/fa'
 const Navbar = () => { 
   const {isDarkTheme, toggleDarkTheme } = useGlobalContext()
 
-  // const toggleMenu = () => {
-  //   document.querySelector('#menu').classList.toggle('hidden')
-  // }
-
 
   return (
     <nav className='bg-clr-pry-l dark:bg-clr-dark fixed top-0 w-full'>

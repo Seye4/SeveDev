@@ -3,6 +3,8 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import arScreenshot from './assets/img/arScreenshot.png'
 import vrScreenshot from './assets/img/vrScreenshot.png'
 import webScreenshot from './assets/img/webScreenshot.png'
+import motionGraphicScreenshot from './assets/img/motionGraphics.png'
+import modelling from './assets/img/modelling.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -55,6 +57,22 @@ export const projects = [
     url: 'https://drive.google.com/file/d/1zQ4H5ySPLRv-winsRe4RcHIJAKFt3Qgt/view?usp=drive_link',
     github: '',
     title: 'Augmented Reality',
-    text: 'Here is a video project on an augmented reality app meant to stimulate the concept of lighting',
+    text: 'Here is a video demo on an augmented reality app meant to stimulate the concept of lighting',
+  },
+  {
+    id: nanoid(),
+    img: motionGraphicScreenshot,
+    url: 'https://vimeo.com/286465577',
+    github: '',
+    title: 'Motion Graphics',
+    text: 'Check out my motion graphic show reel, it contains some of the advert video and motion graphics I have worked on ',
+  },
+  {
+    id: nanoid(),
+    img: modelling,
+    url: 'https://vimeo.com/284838858',
+    github: '',
+    title: 'Motion Graphics',
+    text: 'Check out my motion graphic show reel, it contains some of the advert video and motion graphics I have worked on ',
   },
 ];

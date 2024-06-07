@@ -21,7 +21,7 @@ const PortfolioCard = ({img, title, url, text}) => {
           <h5 className='text-clr-text-dark font-medium text-lg mt-3'>{title}</h5>
           <p className='text-clr-text-grey text-sm mt-3'>{text}</p>
         </div>
-          <a className='w-full text-center bg-clr-pry text-clr-white py-2 rounded-lg font-semibold mt-4 hover:bg-clr-pry-400 focus:scale-95 transition-all duration-200 ease-out' href={url}>Explore</a>
+          <a className='w-full text-center bg-clr-pry text-clr-white py-2 rounded-lg font-semibold mt-4 hover:bg-clr-pry-400 focus:scale-95 transition-all duration-200 ease-out' target="_blank" href={url}>Explore</a>
       </div>
     </article>
   )
