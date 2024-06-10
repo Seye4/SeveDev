@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionTitle = ({text}) => {
   return (
-    <div id='portfolio'>
+    <div id='' className=''>
         <div className='flex flex-col gap-3 items-center' >
 
           <h1 className='text-clr-text-pry text-center font-bold'>Portfolio</h1>

@@ -22,6 +22,17 @@ export const AppProvider = ({children}) => {
     //use state to set dark mode
     const [isDarkTheme, setIsDarkTheme] = useState(getInitialDarkMode())
 
+    const toggleMenuBar = () => {
+        //const hamburger = document.querySelector('#hamburger')
+        const menu = document.querySelector('#menu')
+
+        menu.classList.toggle("hidden")
+    }
+
+    const hideMenu = () => {
+        document.querySelector('#menu').classList.toggle("hidden")
+    }
+
     //function to toggle dark mode
     const toggleDarkTheme = () => {
         // inverse dark mode
@@ -41,7 +52,7 @@ export const AppProvider = ({children}) => {
     }, [])
 
     return (
-        <AppContext.Provider value={{isDarkTheme, toggleDarkTheme}}> {children}</AppContext.Provider>
+        <AppContext.Provider value={{toggleMenuBar, hideMenu, toggleDarkTheme}}> {children}</AppContext.Provider>
     )
 
 }

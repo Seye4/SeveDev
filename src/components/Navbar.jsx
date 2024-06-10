@@ -6,14 +6,14 @@ import { FaBars } from 'react-icons/fa'
 
 
 const Navbar = () => { 
-  const {isDarkTheme, toggleDarkTheme } = useGlobalContext()
+  const {toggleMenuBar, hideMenu, toggleDarkTheme } = useGlobalContext()
 
 
   return (
-    <nav className='bg-clr-pry-l dark:bg-clr-dark fixed top-0 w-full'>
+    <nav className='bg-clr-pry-l z-50 dark:bg-clr-dark fixed top-0 w-full'>
         <div className="align-element py-4 flex sm:gap-x-16 justify-between items-center sm:py-8">
             <div className="">
-                <h2 className="text-clr-text-dark text-3xl font-bold">Seve<span className="text-clr-pry">Dev</span> </h2>
+              <a href="/home" rel="noopener noreferrer">  <h2 className="text-clr-text-dark text-3xl font-bold">Seve<span className="text-clr-pry">Dev</span> </h2> </a> 
             </div>
             <div className="md:flex hidden gap-x-3">
               {links.map((link) => {
@@ -35,25 +35,26 @@ const Navbar = () => {
               <BsFillSunFill className='fill-clr-dark' />
               <div className='w-6 h-6 bg-clr-pry-400 cursor-pointer rounded-full absolute left-7 dark:left-0' ></div>
             </button>
-            <div className='block md:hidden cursor-pointer z-10'>
-              <FaBars className='dark:text-clr-pry-400' />
+            <div className='block md:hidden cursor-pointer z-20' id='hamburger' onClick={toggleMenuBar} >
+              <FaBars className='text-clr-text-pry' />
+              
             </div>
-            
-            <div id='menu' className="absolute hidden sm:hidden flex flex-col gap-x-3  bg-clr-pry-500 left-0 top-0 w-full p-10 rounded-b-3xl space-y-10">
+            <ul id='menu' className="hidden sm:absolute flex-col gap-x-3 text-center  bg-clr-pry-500 left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 md:hidden">
               {links.map((link) => {
                 const {id, href, text} = link
 
                 return (
-                  <a 
-                    key={id}
-                    href={href}
-                    className="capitalize tex-lg tracking-wide hover:text-purple-950 duration-300 dark:text-gray-100 text-center"
-                  > {text}</a>
+                  <li key={id} > 
+                    <a href={href}
+                      className="text-clr-white capitalize text-lg tracking-wide hover:text-purple-950 duration-300" onClick={hideMenu}
+                    > {text}</a>
+                  </li>
                 )
 
               })}
-                
-            </div>        
+              </ul>
+            
+                    
         </div>        
     </nav>
   )

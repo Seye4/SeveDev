@@ -4,7 +4,7 @@ import myImage from '../assets/img/cod.png';
 
 const Services = () => {
   return (
-    <section id='services' className='py-20 align-element border-b border-purple-200 pb-16'  >
+    <section id='services' className='py-20 align-element border-b border-purple-200 pb-16 scroll-mt-24'  >
         <div className='flex flex-col gap-3 items-center' >
 
             <h1 className='text-clr-text-pry text-center font-bold'>SERVICES</h1>

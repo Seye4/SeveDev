@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div id="home" className=''>
+    <div id="home" className='scroll-mt-24'>
         <div className='align-element flex flex-col items-center justify-center gap-y-8	mt-20 border-b border-clr-border py-20'>
            
             <div className="m-auto">
