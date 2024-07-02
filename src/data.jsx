@@ -1,10 +1,15 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import arScreenshot from './assets/img/arScreenshot.png'
-import vrScreenshot from './assets/img/vrScreenshot.png'
-import webScreenshot from './assets/img/webScreenshot.png'
-import motionGraphicScreenshot from './assets/img/motionGraphics.png'
-import modelling from './assets/img/modelling.png'
+// import vrScreenshot from './assets/img/vrScreenshot.png'
+// import webScreenshot from './assets/img/webScreenshot.png'
+// import motionGraphicScreenshot from './assets/img/motionGraphics.png'
+// import modelling from './assets/img/modelling.png'
+import modernWeb from './assets/img/ModernWeb.png'
+import dashBoard from './assets/img/DashBoard.png'
+import gitHubPg from './assets/img/GithubPg.png'
+import mernEventBooking from './assets/img/mernEventBooking.png'
+import seveStock from './assets/img/seveStock.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -37,42 +42,42 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: webScreenshot,
+    img: gitHubPg,
     url: 'https://github.com/Seye4',
     github: "",
-    title: 'Web project',
+    title: 'GitHub project',
     text: 'Check out my github portfolio, where you can find some of my front-end projects',
   },
   {
     id: nanoid(),
-    img: vrScreenshot,
-    url: 'https://drive.google.com/file/d/1__8yumx-pfx64YspjAYEreLOWC_9sP9V/view?usp=drive_link',
+    img: mernEventBooking,
+    url: 'https://seveeventbooking.netlify.app',
     github: '',
-    title: 'Virtual Reality',
-    text: 'Here is a video demo of a virtual reality app I developed, its for educational purpose on the concept of magnetism',
+    title: 'Event Booking',
+    text: 'A MERN CRUD app design to create event, modify event and delete event. Made with React Js, Next Js, Html, javascript and tailwind css',
   },
   {
     id: nanoid(),
-    img: arScreenshot,
-    url: 'https://drive.google.com/file/d/1zQ4H5ySPLRv-winsRe4RcHIJAKFt3Qgt/view?usp=drive_link',
+    img: dashBoard,
+    url: 'https://sevedashboard.netlify.app',
     github: '',
-    title: 'Augmented Reality',
-    text: 'Here is a video demo on an augmented reality app meant to stimulate the concept of lighting',
+    title: 'Dashboard Website',
+    text: 'A dash board website made with Html, JavaScript and CSS',
   },
   {
     id: nanoid(),
-    img: motionGraphicScreenshot,
-    url: 'https://vimeo.com/286465577',
+    img: modernWeb,
+    url: 'https://sevearchiviz.netlify.app',
     github: '',
-    title: 'Motion Graphics',
-    text: 'Check out my motion graphic show reel, it contains some of the advert video and motion graphics I have worked on ',
+    title: 'Modern Website',
+    text: 'A modern website created with Html, CSS and JavaScript',
   },
   {
     id: nanoid(),
-    img: modelling,
-    url: 'https://vimeo.com/284838858',
+    img: seveStock,
+    url: 'https://sevestock.netlify.app',
     github: '',
-    title: 'Motion Graphics',
-    text: 'Check out my motion graphic show reel, it contains some of the advert video and motion graphics I have worked on ',
+    title: 'SeveStock',
+    text: 'A photo searching app made with React Html, CSS and axios',
   },
 ];
