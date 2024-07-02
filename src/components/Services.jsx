@@ -21,8 +21,8 @@ const Services = () => {
                     {/* card */}
                 <div className='bg-clr-card-bg w-full md:w-full shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3'>
                     <img className='w-10' src={myImage} alt="" />
-                    <h1 className='font-medium text-lg text-clr-text-dark'>Front End Developer</h1>
-                    <p className='text-clr-text-grey'>I develop websites and applications in web languages such as HTML, CSS, and JavaScript, as well as frameworks and libraries that allow users to access and interact with the website or app.
+                    <h1 className='font-medium text-lg text-clr-text-dark'>Full Stack  Engineer</h1>
+                    <p className='text-clr-text-grey'>I build web applications from start to finish, including the front-end, back-end, and infrastructure in order to ensure the customers needs are met across all platforms.
                     </p>
                 </div>
 
